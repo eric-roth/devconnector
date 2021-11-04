@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get("/", (req, res) => res.send("API running"));
+app.get("/", (req, res) => res.send("API is now running"));
 
 const PORT = process.env.PORT || 5000;
 
